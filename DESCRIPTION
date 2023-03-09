@@ -1,0 +1,13 @@
+Package: nchsdata
+Title: Public use files (PUFs) from the National Center for Health Statistics (NCHS).
+Version: 0.5
+Authors@R: 
+    person("Alex", "Strashny", , "AStrashny@cdc.gov", role = c("aut", "cre"))
+Description: Public use files (PUFs) from the National Center for Health Statistics (NCHS).
+License: CC0
+Date/Publication: 2023
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    survey

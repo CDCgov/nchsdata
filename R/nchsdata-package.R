@@ -1,3 +1,4 @@
+#' @import survey
 #' @keywords internal
 "_PACKAGE"
 

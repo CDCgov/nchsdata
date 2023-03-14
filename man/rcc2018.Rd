@@ -5,7 +5,7 @@
 \alias{rcc2018}
 \title{National Study of Long-Term Care Providers (NSLTCP) Residential Care Community (RCC) 2018 Public Use File (PUF)}
 \format{
-An object of class \code{survey.design2} (inherits from \code{survey.design}) with 503 rows and 143 columns.
+An object of class \code{survey.design2} (inherits from \code{survey.design}) with 503 rows and 155 columns.
 }
 \source{
 \itemize{

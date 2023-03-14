@@ -1,7 +1,7 @@
 #' National Hospital Ambulatory Medical Care Survey (NHAMCS) Emergency Department (ED) 2020 Public Use File (PUF)
 #'
 #' A data system of visits to emergency departments. Note that the unit of
-#' observation is visits, not patients – this distinction is important since a single
+#' observation is visits, not patients - this distinction is important since a single
 #' patient can make multiple visits.
 #'
 #' @source

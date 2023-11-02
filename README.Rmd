@@ -47,12 +47,12 @@ cat( help(package = "nchsdata", help_type = "text")$info[[2]], sep = "\n" )
 If you have `surveytable`, you can use it to analyze these surveys. For example:
 
 ```{r, results=FALSE, message=FALSE, warning=FALSE}
+library(nchsdata)
 library(surveytable)
 ```
 
 ```{r, results='asis'}
-mysurvey = nchsdata::rccsu2018
-set_survey("mysurvey")
+set_survey("rccsu2018")
 
 ```
 
@@ -64,9 +64,9 @@ tab("hbp", drop_na = TRUE)
 
 In all, there are 3 related packages:
 
-* [`surveytable`](https://cdcgov.github.io/surveytable/): functions for tabulating survey estimates
-* [`nchsdata`](https://cdcgov.github.io/nchsdata/): public use files (PUFs) from the the National Center for Health Statistics (NCHS)
-* [`importsurvey`](https://cdcgov.github.io/importsurvey/): functions for importing data into R
+* [surveytable: functions for tabulating survey estimates](https://cdcgov.github.io/surveytable/)
+* [nchsdata: public use files (PUFs) from the the National Center for Health Statistics (NCHS)](https://cdcgov.github.io/nchsdata/)
+* [importsurvey: functions for importing data into R](https://cdcgov.github.io/importsurvey/)
 
 `importsurvey` imports surveys into R that are currently in other formats. Public versions of surveys that have already been imported are stored in `nchsdata`. Tables of estimates can be generated using `surveytable`.  
 

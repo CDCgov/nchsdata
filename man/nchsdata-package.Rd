@@ -8,6 +8,14 @@
 \description{
 Public use files (PUFs) from the National Center for Health Statistics (NCHS).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://cdcgov.github.io/nchsdata}
+  \item \url{https://github.com/CDCgov/nchsdata}
+}
+
+}
 \author{
 \strong{Maintainer}: Alex Strashny \email{AStrashny@cdc.gov}
 

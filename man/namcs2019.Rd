@@ -5,7 +5,7 @@
 \alias{namcs2019}
 \title{National Ambulatory Medical Care Survey (NAMCS) 2019 Public Use File (PUF)}
 \format{
-An object of class \code{survey.design2} (inherits from \code{survey.design}) with 8250 rows and 1095 columns.
+An object of class \code{survey.design2} (inherits from \code{survey.design}) with 8250 rows and 1100 columns.
 }
 \source{
 \itemize{

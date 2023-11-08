@@ -51,7 +51,7 @@ library(nchsdata)
 library(surveytable)
 ```
 
-```{r, results='asis'}
+```{r}
 set_survey("rccsu2018")
 
 ```

@@ -55,45 +55,15 @@ library(surveytable)
 
 ``` r
 set_survey("rccsu2018")
-#> * Analyzing RCC SU 2018 PUF
+#>                        _              
+#> Survey name            RCC SU 2018 PUF
+#> Number of variables    81             
+#> Number of observations 904            
+#> Stratified Independent Sampling design
+#> svydesign(ids = ~1, strata = ~pufstrata2 + su_facid, fpc = ~pufpopfac2, 
+#>     weights = ~suwt, data = d1)
+#> * To adjust how counts are rounded, see ?set_count_int
 ```
-
-Stratified Independent Sampling design svydesign(ids = \~1, strata =
-\~pufstrata2 + su_facid, fpc = \~pufpopfac2, weights = \~suwt, data =
-d1)
-<table class="huxtable" style="border-collapse: collapse; border: 0px; margin-bottom: 2em; margin-top: 2em; ; margin-left: auto; margin-right: auto;  " id="tab:unnamed-chunk-4">
-<caption style="caption-side: top; text-align: center;">
-Data summary {RCC SU 2018 PUF}
-</caption>
-<col>
-<col>
-<tr>
-<th style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0.4pt 0.4pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-What
-</th>
-<th style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0.4pt 0.4pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Value
-</th>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0.4pt 0.4pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Number of variables
-</td>
-<td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0.4pt 0.4pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-81
-</td>
-</tr>
-<tr>
-<td style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0.4pt 0.4pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-Number of observations
-</td>
-<td style="vertical-align: top; text-align: right; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0.4pt 0.4pt 0.4pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-904
-</td>
-</tr>
-</table>
-
-    #> * To adjust how counts are rounded, see ?set_count_int
 
 ``` r
 tab("hbp", drop_na = TRUE)

@@ -1,6 +1,6 @@
 Package: nchsdata
 Title: Public use files (PUFs) from the National Center for Health Statistics (NCHS)
-Version: 0.5
+Version: 0.9
 Authors@R: 
     person("Alex", "Strashny", , "AStrashny@cdc.gov", role = c("aut", "cre"))
 Description: Public use files (PUFs) from the National Center for Health Statistics (NCHS).

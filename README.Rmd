@@ -25,11 +25,8 @@ Selected public use files (PUFs) from the National Center for Health Statistics 
 You can install `nchsdata` like so:
 
 ``` r
-install.packages("remotes")
-remotes::install_git(
-	url = "https://github.com/CDCgov/nchsdata"
-	, upgrade = "never")
-
+install.packages(c("remotes", "git2r"))
+remotes::install_github("CDCgov/nchsdata", upgrade = "never")
 ```
 ## Documentation
 

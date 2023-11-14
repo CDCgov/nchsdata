@@ -15,10 +15,8 @@ Statistics (NCHS). These complex surveys can be analyzed using the
 You can install `nchsdata` like so:
 
 ``` r
-install.packages("remotes")
-remotes::install_git(
-    url = "https://github.com/CDCgov/nchsdata"
-    , upgrade = "never")
+install.packages(c("remotes", "git2r"))
+remotes::install_github("CDCgov/nchsdata", upgrade = "never")
 ```
 
 ## Documentation
@@ -172,7 +170,7 @@ TRUE
 </tr>
 <tr>
 <td colspan="9" style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0.8pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
-(No flags.)
+(Checked presentation standards. Nothing to report.)
 </td>
 </tr>
 </table>
